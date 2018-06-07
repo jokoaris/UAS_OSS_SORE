@@ -1,9 +1,9 @@
 def Tampil_Tuple(tuple):
-	for i in range(len(tuplee)):
-		print(i+1,'.',tuplee[i])
+	for i in range(len(tuple)):
+		print i+1 ,'.', tuple[i]
 
 def Tampil_List(list):
-	for i in listing:
+	for i in list:
 		print(i)
 
 def Utama():
@@ -15,4 +15,4 @@ def Utama():
 	print("Daftar Nama Dosen FTIK USM ")
 	Tampil_Tuple(tuple)
 
-Utama(args)
+Utama()
