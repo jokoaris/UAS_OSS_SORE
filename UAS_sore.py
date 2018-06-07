@@ -1,4 +1,4 @@
-def Tampil_Tuple(tuple):
++def Tampil_Tuple(tuple):
 +	for i in range(len(tuple)): # for i in range(len(tuplee)):  == tuplee diganti dengan tuple == 	
 +		print(i+1,'.',tuple[i])   # print(i+1,'.',tuplee[i])  == tuplee diganti dengan tuple ==   
 +
